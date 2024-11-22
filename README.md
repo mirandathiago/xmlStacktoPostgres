@@ -8,8 +8,8 @@ This project processes XML data dumps from StackExchange and imports them into a
 
 ## Prerequisites
 
-1. **Python 3.9 or later**: Make sure Python is installed on your system.
-2. **PostgreSQL**: Ensure you have a running PostgreSQL instance.
+1. **Python 3.9 or later**
+2. **PostgreSQL**
 
 ## Setup Instructions
 ### 1. Create a PostgreSQL Database
@@ -22,7 +22,7 @@ This project processes XML data dumps from StackExchange and imports them into a
     CREATE DATABASE dbname;
    ```        
 ### 2. Configure the Environment Variables
-Create a .env file in the project root directory and fill in the database connection details   
+- Create a .env file in the project root directory and fill in the database connection details   
 ```make
 DATABASE=dbname
 HOST=localhost
