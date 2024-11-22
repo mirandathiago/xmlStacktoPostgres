@@ -1,6 +1,6 @@
 # StackExchange XML data to Postgres
 
-This project processes large XML data dumps from StackExchange and imports them into a PostgreSQL database. The data is parsed from XML files and mapped to specific database tables based on predefined schemas.
+This project processes XML data dumps from StackExchange and imports them into a PostgreSQL database. The data is parsed from XML files and mapped to specific database tables based on predefined schemas.
 
 - Database Schema: The script automatically matches the XML data to the corresponding PostgreSQL table columns.
 - This project uses the SQL structure provided in the repository [stackexchange-dump-to-postgres](https://github.com/Networks-Learning/stackexchange-dump-to-postgres) as a foundation. Some updates have been made to adapt the schema to the current StackExchange data format.
